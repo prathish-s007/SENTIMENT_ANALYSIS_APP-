@@ -51,26 +51,20 @@ product-review-sentiment-analysis/
 
 ## ⚙️ Installation
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/your-username/product-review-sentiment-analysis.git
-cd product-review-sentiment-analysis
-```
-
-### 2. Install Required Libraries
+### 1. Install Required Libraries
 
 ```bash
 pip install streamlit pandas textblob plotly PyPDF2
 ```
 
-### 3. Download TextBlob Corpora
+### 2. Download TextBlob Corpora
 
 ```bash
 python -m textblob.download_corpora
 ```
 
-### 4. Run the Application
+### 3. Run the Application
 
 ```bash
 streamlit run app.py
@@ -110,24 +104,7 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshots
 
-### Home Page
-Upload PDF files containing product reviews.
-
-![Home Page](screenshots/home-page.png)
-
-### Sentiment Dashboard
-Interactive charts and summary metrics.
-
-![Dashboard](screenshots/dashboard.png)
-
-### Review Details
-Detailed review analysis and sentiment scores.
-
-![Review Details](screenshots/review-details.png)
-
----
 
 ## 🔮 Future Enhancements
 
